@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("JSON", array.get(i).toString());
                         Heroe heroe = new Heroe(object.getString("name"), object.getString("imageurl"));
                         list.add(heroe);
-                        recyclerViewAdapter.notifyItemRangeInserted(list.size(), 1);
+                        recyclerViewAdapter.notifyItemRangeInserted(list.size()+1, list.size());
                     }
                 }catch (JSONException exception){
                     exception.printStackTrace();

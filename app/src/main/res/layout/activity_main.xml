@@ -20,7 +20,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/album_recycler"
         android:layout_width="409dp"
-        android:layout_height="354dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
